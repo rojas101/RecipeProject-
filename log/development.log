@@ -2156,3 +2156,115 @@ Migrating to CreateChefs (20180831205250)
   ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/" for 69.75.22.163 at 2018-09-02 01:24:02 +0000
+Cannot render console from 69.75.22.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.6.2/lib/web_console/middleware.rb:135
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 372ms (Views: 364.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.75.22.163 at 2018-09-02 01:24:06 +0000
+Cannot render console from 69.75.22.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.75.22.163 at 2018-09-02 01:27:51 +0000
+Cannot render console from 69.75.22.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.87.29.130 at 2018-09-02 03:43:36 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "bob@email.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (4.2ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["chefname", "bob"], ["email", "bob@email.com"], ["created_at", "2018-09-04 21:36:40.182256"], ["updated_at", "2018-09-04 21:36:40.182256"]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+Migrating to AddChefIdToRecipes (20180904033454)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "recipes" ADD "chef_id" interger[0m
+  ↳ db/migrate/20180904033454_add_chef_id_to_recipes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180904033454"]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" ORDER BY "chefs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (1.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "summary", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "MCderp"], ["summary", " derp derp derp"], ["description", " cheap suits talk expensive"], ["created_at", "2018-09-04 21:54:06.948528"], ["updated_at", "2018-09-04 21:54:06.948528"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mChef Destroy (8.1ms)[0m  [1m[31mDELETE FROM "chefs" WHERE "chefs"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "bob@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "chefs" WHERE "chefs"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "mcderp@gmail.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (2.1ms)[0m  [1m[32mINSERT INTO "chefs" ("chefname", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["chefname", "McDerp"], ["email", "mcderp@gmail.com"], ["created_at", "2018-09-04 22:17:42.452167"], ["updated_at", "2018-09-04 22:17:42.452167"]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Create (1.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "summary", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "GrassAss"], ["summary", "Green stuff on stuff"], ["description", "No need ny dude, no need"], ["created_at", "2018-09-04 22:20:03.879508"], ["updated_at", "2018-09-04 22:20:03.879508"], ["chef_id", 2]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m

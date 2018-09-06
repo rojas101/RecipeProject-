@@ -2268,3 +2268,906 @@ Migrating to AddChefIdToRecipes (20180904033454)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mRecipe Create (1.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "summary", "description", "created_at", "updated_at", "chef_id") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "GrassAss"], ["summary", "Green stuff on stuff"], ["description", "No need ny dude, no need"], ["created_at", "2018-09-04 22:20:03.879508"], ["updated_at", "2018-09-04 22:20:03.879508"], ["chef_id", 2]]
   [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:37:00 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.6.2/lib/web_console/middleware.rb:135
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 355ms (Views: 347.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:37:07 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (3.9ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:53:14 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+   delete '/recipes/:id', to 'recipes#destroy'
+                              ^):
+  
+config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:53:42 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:53:47 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 4.79.136.195 at 2018-09-05 22:53:50 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 4.79.136.195 at 2018-09-05 22:56:03 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 4.79.136.195 at 2018-09-05 22:56:11 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 4.79.136.195 at 2018-09-05 23:03:08 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:03:11 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (uninitialized constant RecipesController):
+  
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `block in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `rescue in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:43:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:09:20 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/app/controllers/recipes_controller.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+    end 
+        ^):
+  
+app/controllers/recipes_controller.rb:5: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:09:43 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:13:55 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant RecipesController::Recipes):
+  
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:18:14 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant RecipesController::Recipes):
+  
+app/controllers/recipes_controller.rb:4:in `index'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:21:24 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 55.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:29:35 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:34:24 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:34:29 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:34:31 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:34:35 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:37:03 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:37:12 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:37:16 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:58:40 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ','
+rl, alt: chef.chefname, class, "gravatar")
+                              ^
+/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+f.chefname, class, "gravatar")
+                              ^):
+  
+app/helpers/application_helper.rb:7: syntax error, unexpected ','
+app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:1:in `<main>'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-05 23:59:45 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ','
+rl, alt: chef.chefname, class, "gravatar")
+                              ^
+/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+f.chefname, class, "gravatar")
+                              ^):
+  
+app/helpers/application_helper.rb:7: syntax error, unexpected ','
+app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:1:in `<main>'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-06 00:01:43 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ','
+rl, alt: chef.chefname, class, "gravatar")
+                              ^
+/home/ec2-user/environment/udemy/blog/app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+f.chefname, class, "gravatar")
+                              ^):
+  
+app/helpers/application_helper.rb:7: syntax error, unexpected ','
+app/helpers/application_helper.rb:7: syntax error, unexpected ')', expecting keyword_end
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/recipes_controller.rb:1:in `<main>'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-06 00:03:22 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/udemy/blog/app/views/recipes/index.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+=( recipe.chef.chefname, size: 100 );@output_buffer.safe_app
+                              ^):
+  
+app/views/recipes/index.html.erb:10: syntax error, unexpected tLABEL, expecting '='
+Started GET "/recipes" for 4.79.136.195 at 2018-09-06 00:08:01 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (24.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__4296374252149038753_69890206988140'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__4296374252149038753_69890206988140'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-06 00:08:45 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__4296374252149038753_42717480'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__4296374252149038753_42717480'
+Started GET "/recipes" for 4.79.136.195 at 2018-09-06 00:11:20 +0000
+Cannot render console from 4.79.136.195! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (215.5ms)
+Completed 500 Internal Server Error in 220ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `chefemail' for #<#<Class:0x007f212a76bdb0>:0x007f212a76a3e8>):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__4296374252149038753_69890211537740'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__4296374252149038753_69890211537740'
+Started GET "/" for 76.87.29.130 at 2018-09-06 03:34:39 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.6.2/lib/web_console/middleware.rb:135
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 290ms (Views: 282.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 76.87.29.130 at 2018-09-06 03:34:41 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:34:48 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (242.3ms)
+Completed 500 Internal Server Error in 254ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `chefemail' for #<#<Class:0x007fa075fb3f70>:0x007fa075fb2260>):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163575465000'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163575465000'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:35:45 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (23.3ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163571298040'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163571298040'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:37:52 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163564793080'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163564793080'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:38:22 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163696885180'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163696885180'
+Started GET "/recipe" for 76.87.29.130 at 2018-09-06 03:38:26 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/recipe"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:38:29 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef-info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163574875380'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163574875380'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:40:04 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:         <%= gravatar_for recipe.chef, size: 100  %>
+    10:         <h5>Chef name: <%= recipe.chef.chefname%></h5>
+    11:             
+    12:             
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163572074640'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163572074640'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:45:15 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:           <%= gravatar_for recipe.chef, size: 100  %>
+    10:           <h5>Chef name: <%= recipe.chef.chefname %></h5>
+    11:         </section>
+    12:     </div>  
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163570606200'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163570606200'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 03:54:56 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:           <%= gravatar_for recipe.chef, size: 100  %>
+    10:           <h5>Chef name: <%= recipe.chef.chefname %></h5>
+    11:         </section>
+    12:     </div>  
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_33813900'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_33813900'
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" ORDER BY "recipes"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:00:06 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:           <%= gravatar_for recipe.chef, size: 100  %>
+    10:           <h5>Chef name: <%= recipe.chef.chefname %></h5>
+    11:         </section>
+    12:     </div>  
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163698905780'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163698905780'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:00:08 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:           <%= gravatar_for recipe.chef, size: 100  %>
+    10:           <h5>Chef name: <%= recipe.chef.chefname %></h5>
+    11:         </section>
+    12:     </div>  
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163696962140'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163696962140'
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:00:09 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     6:     
+     7:     <div class="col-md-2">
+     8:         <section class="chef_info center">
+     9:           <%= gravatar_for recipe.chef, size: 100  %>
+    10:           <h5>Chef name: <%= recipe.chef.chefname %></h5>
+    11:         </section>
+    12:     </div>  
+  
+app/helpers/application_helper.rb:4:in `gravatar_for'
+app/views/recipes/index.html.erb:9:in `block in _app_views_recipes_index_html_erb__3892712935207887862_70163694826640'
+app/views/recipes/index.html.erb:4:in `_app_views_recipes_index_html_erb__3892712935207887862_70163694826640'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRecipe Update (3.3ms)[0m  [1m[33mUPDATE "recipes" SET "updated_at" = ?, "chef_id" = ? WHERE "recipes"."id" = ?[0m  [["updated_at", "2018-09-06 04:00:17.413007"], ["chef_id", 2], ["id", 1]]
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:00:23 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (25.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1519ms (Views: 1517.1ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mRecipe Update (1.5ms)[0m  [1m[33mUPDATE "recipes" SET "name" = ?, "updated_at" = ? WHERE "recipes"."id" = ?[0m  [["name", "kale Salad"], ["updated_at", "2018-09-06 04:01:57.308256"], ["id", 1]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" ORDER BY "recipes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" ORDER BY "recipes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:09:29 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" ORDER BY "recipes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" ORDER BY "recipes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:10:31 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:10:33 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mRecipe Update (1.5ms)[0m  [1m[33mUPDATE "recipes" SET "name" = ?, "updated_at" = ? WHERE "recipes"."id" = ?[0m  [["name", "Chicken Salad"], ["updated_at", "2018-09-06 04:10:42.498197"], ["id", 2]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:10:47 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 76.87.29.130 at 2018-09-06 04:14:12 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:14:17 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:15:06 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 1308ms (Views: 1307.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:16:43 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes" for 76.87.29.130 at 2018-09-06 04:19:17 +0000
+Cannot render console from 76.87.29.130! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  [1m[36mCACHE Chef Load (0.0ms)[0m  [1m[34mSELECT  "chefs".* FROM "chefs" WHERE "chefs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/recipes/index.html.erb:9
+  Rendered recipes/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.3ms)
+
+

@@ -14,6 +14,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '>= 3.2'
 gem 'jquery-rails'
+gem 'carrierwave', '~> 1.0'
+gem "mini_magick" , '4.8.0'
+gem 'paperclip', '~> 6.1'
 
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -43,7 +46,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry'
+#  gem 'pry'
 end
 
 group :development do
@@ -59,7 +62,7 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
+  # Easy installation and use of chromedriver to run system te sts with Chrome
   gem 'chromedriver-helper'
 end
 

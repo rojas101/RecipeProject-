@@ -1,7 +1,9 @@
 class RecipesController < ApplicationController
     
+#chef hardcoded for now
+    
     def index 
-        @recipe = Recipe.all
+        @recipe = Recipe.paginate(page:params[:page], per_page: 4)
     end 
     
     def show 
@@ -33,16 +35,41 @@ class RecipesController < ApplicationController
         else 
             render :edit
         end 
-            
     end 
     
+
     def edit 
         @recipe = Recipe.find(params[:id])   
     end  
+    
+    def destroy
+      @recipe = Recipe.find(params[:id])
+      @recipe.destroy
+  
+      redirect_to recipes_path
+    end
+    
+    def like 
+      @recipe = Recipe.find(params[:id])
+      like = Like.create(like: params[:like], chef: Chef.first, recipe: @recipe) 
+      if like.valid?
+        flash[:success] = "Your selection was succssful"
+        redirect_back(fallback_location: root_path)
+
+      else
+        flash[:danger] = "You can only like/dislike a recipe once"
+        redirect_back(fallback_location: root_path)
+      end 
+    end  
+      
+       
+ 
     
     private
         
         def recipe_params
             params.require(:recipe).permit(:picture, :name, :summary, :description)
         end 
+        
+
 end 

@@ -13,11 +13,13 @@ gem 'puma', '~> 3.11'
 gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '>= 3.2'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'jquery-turbolinks', '~> 2.1'
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick" , '4.8.0'
 gem 'paperclip', '~> 6.1'
-
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby

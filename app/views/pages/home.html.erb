@@ -4,7 +4,7 @@
     <h2>
         This is the home page of the Udemy Ruby on Rails tutorial
     </h2>
-    <%= link_to "Sign up Now!", "", class: "btn btn-lg btn-success" %>
+    <%= link_to "Sign up Now!", register_path, class: "btn btn-lg btn-success" %>
 </div>
 <div class="row">
     <div class="col-lg-4">
@@ -16,10 +16,10 @@
     </div>
     <div class="col-lg-4">
         <h3 class="midrow">
-            View Recipes as Guest User 
+          Sign in to your Account
         </h3>
-        <h2 class="left">Browse and view Recipes as a guest and Sign up later</h2>
-        <p><%= link_to "Browse Recipes Listing", "", class: "btn btn-warning btn-small" %></p>
+        <h2 class="left">Add/Update your recipes/create reviews/like-dislike recipes and much much more!</h2>
+        <p><%= link_to "Log in to your account ",login_path , class: "btn btn-warning btn-small" %></p>
     </div>
     <div class="col-lg-4">
         <h3 class="midrow">

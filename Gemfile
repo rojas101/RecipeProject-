@@ -20,6 +20,7 @@ gem "mini_magick" , '4.8.0'
 gem 'paperclip', '~> 6.1'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
+gem 'bcrypt', '3.1.7'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
@@ -48,7 +49,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-#  gem 'pry'
+  gem 'pry'
 end
 
 group :development do
@@ -66,6 +67,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system te sts with Chrome
   gem 'chromedriver-helper'
+  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

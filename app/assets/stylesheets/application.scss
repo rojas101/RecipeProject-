@@ -95,9 +95,9 @@ input, textarea, select, .uneditable-input {
     margin-bottom: 15px;
 }
 
-input {
-    height: auto !important;
-}
+//input {
+//    height: auto !important;
+//}
 
 span.picture {
     margin-top: 10px;
@@ -115,7 +115,7 @@ span.picture {
   display: inline;
 }
 
-.inlineCheckbox1 {
-  width: auto !important;
-}
 
+.input_checkbox input {
+    width: auto !important;
+}
